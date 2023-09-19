@@ -10,32 +10,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b139e1ef-f6c4-46fc-b218-09dcf0bbc5d6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/feature_about/JetpackComposeDrawerNavigation.feature_about.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/feature_about/JetpackComposeDrawerNavigation.feature_about.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/feature_settings/JetpackComposeDrawerNavigation.feature_settings.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/JetpackComposeDrawerNavigation.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jetpackcompose/navigation/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jetpackcompose/navigation/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jetpackcompose/navigation/MainNavigation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jetpackcompose/navigation/MainNavigation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_about/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/feature_about/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_about/src/main/java/com/jetpackcompose/feature/about/AboutScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/feature_about/src/main/java/com/jetpackcompose/feature/about/AboutScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_articles/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/feature_articles/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_articles/src/main/java/com/jetpackcompose/feature/articles/ArticlesScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/feature_articles/src/main/java/com/jetpackcompose/feature/articles/ArticlesScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_settings/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/feature_settings/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feature_settings/src/main/java/com/jetpackcompose/feature/settings/SettingsScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/feature_settings/src/main/java/com/jetpackcompose/feature/settings/SettingsScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_common/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/ui_common/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/jetpackcompose/navigation/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jetpackcompose/navigation/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jetpackcompose/navigation/MainApplication.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jetpackcompose/navigation/MainNavigation.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/jetpackcompose/navigation/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_about/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_about/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_about/consumer-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_about/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_about/src/androidTest/java/com/jetpackcompose/feature/about/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_about/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_about/src/main/java/com/jetpackcompose/feature/about/AboutScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_about/src/main/java/com/jetpackcompose/feature/about/AboutViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_about/src/test/java/com/jetpackcompose/feature/about/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_articles/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_articles/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_articles/consumer-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_articles/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_articles/src/androidTest/java/com/jetpackcompose/feature/articles/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_articles/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_articles/src/main/java/com/jetpackcompose/feature/articles/ArticlesScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_articles/src/main/java/com/jetpackcompose/feature/articles/ArticlesViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_articles/src/test/java/com/jetpackcompose/feature/articles/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_settings/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_settings/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_settings/consumer-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_settings/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_settings/src/androidTest/java/com/jetpackcompose/feature/settings/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_settings/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_settings/src/main/java/com/jetpackcompose/feature/settings/SettingsScreen.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_settings/src/main/java/com/jetpackcompose/feature/settings/SettingsViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature_settings/src/test/java/com/jetpackcompose/feature/settings/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_common/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_common/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_common/consumer-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_common/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_common/src/androidTest/java/com/jetpackcompose/ui/common/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_common/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_common/src/main/java/com/jetpackcompose/ui/common/AppBar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_common/src/main/java/com/jetpackcompose/ui/common/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_common/src/main/java/com/jetpackcompose/ui/common/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_common/src/main/java/com/jetpackcompose/ui/common/theme/Typography.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_common/src/test/java/com/jetpackcompose/ui/common/ExampleUnitTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
