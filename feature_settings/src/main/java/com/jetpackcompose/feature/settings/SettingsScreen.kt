@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import com.jetpackcompose.ui.common.CustomAppBar
 
 @Composable
-fun SettingsScreen(drawerState: DrawerState) {
+fun SettingsScreen(drawerState: DrawerState, viewModel: SettingsViewModel) {
     Scaffold(
         topBar = { CustomAppBar(drawerState = drawerState, title = "Settings") }
     ) { paddingValues ->

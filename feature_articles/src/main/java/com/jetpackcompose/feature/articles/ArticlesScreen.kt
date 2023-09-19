@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import com.jetpackcompose.ui.common.CustomAppBar
 
 @Composable
-fun ArticlesScreen(drawerState: DrawerState) {
+fun ArticlesScreen(drawerState: DrawerState, viewModel: ArticlesViewModel) {
     Scaffold(
         topBar = { CustomAppBar(
             drawerState = drawerState,

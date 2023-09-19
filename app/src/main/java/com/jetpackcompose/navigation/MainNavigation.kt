@@ -28,13 +28,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.jetpackcompose.feature.about.AboutScreen
+import com.jetpackcompose.feature.about.AboutViewModel
 import com.jetpackcompose.feature.articles.ArticlesScreen
+import com.jetpackcompose.feature.articles.ArticlesViewModel
 import com.jetpackcompose.feature.settings.SettingsScreen
+import com.jetpackcompose.feature.settings.SettingsViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
@@ -109,13 +113,16 @@ fun MainNavigation(
     ) {
         NavHost(navController = navController, startDestination = MainRoute.Articles.name) {
             composable(MainRoute.Articles.name) {
-                ArticlesScreen(drawerState)
+                val viewModel: ArticlesViewModel = hiltViewModel()
+                ArticlesScreen(drawerState, viewModel)
             }
             composable(MainRoute.About.name) {
-                com.jetpackcompose.feature.about.AboutScreen(drawerState)
+                val viewModel: AboutViewModel = hiltViewModel()
+                AboutScreen(drawerState, viewModel)
             }
             composable(MainRoute.Settings.name) {
-                SettingsScreen(drawerState)
+                val viewModel: SettingsViewModel = hiltViewModel()
+                SettingsScreen(drawerState, viewModel)
             }
         }
     }
