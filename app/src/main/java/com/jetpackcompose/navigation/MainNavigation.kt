@@ -32,9 +32,9 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.jetpackcompose.navigation.screens.AboutScreen
-import com.jetpackcompose.navigation.screens.ArticlesScreen
-import com.jetpackcompose.navigation.screens.SettingsScreen
+import com.jetpackcompose.feature.about.AboutScreen
+import com.jetpackcompose.feature.articles.ArticlesScreen
+import com.jetpackcompose.feature.settings.SettingsScreen
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
@@ -112,7 +112,7 @@ fun MainNavigation(
                 ArticlesScreen(drawerState)
             }
             composable(MainRoute.About.name) {
-                AboutScreen(drawerState)
+                com.jetpackcompose.feature.about.AboutScreen(drawerState)
             }
             composable(MainRoute.Settings.name) {
                 SettingsScreen(drawerState)

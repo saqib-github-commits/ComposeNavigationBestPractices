@@ -1,4 +1,4 @@
-package com.jetpackcompose.navigation.screens
+package com.jetpackcompose.feature.articles
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -10,19 +10,22 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import com.jetpackcompose.navigation.CustomAppBar
+import com.jetpackcompose.ui.common.CustomAppBar
 
 @Composable
-fun SettingsScreen(drawerState: DrawerState) {
+fun ArticlesScreen(drawerState: DrawerState) {
     Scaffold(
-        topBar = { CustomAppBar(drawerState = drawerState, title = "Settings")}
+        topBar = { CustomAppBar(
+            drawerState = drawerState,
+            title = "Articles"
+        ) }
     ) { paddingValues ->
         Column(
             modifier = Modifier.fillMaxSize().padding(paddingValues),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            Text(text = " Settings Screen")
+            Text(text = " Articles Screen")
         }
     }
 }

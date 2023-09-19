@@ -50,6 +50,10 @@ android {
 }
 
 dependencies {
+    implementation(project(":ui_common"))
+    implementation(project(":feature_articles"))
+    implementation(project(":feature_settings"))
+    implementation(project(":feature_about"))
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")

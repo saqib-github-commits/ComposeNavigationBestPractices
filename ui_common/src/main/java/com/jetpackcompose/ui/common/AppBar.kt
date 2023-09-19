@@ -1,4 +1,4 @@
-package com.jetpackcompose.navigation
+package com.jetpackcompose.ui.common
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Menu
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.tooling.preview.Preview
-import com.jetpackcompose.navigation.ui.theme.JetpackComposeDrawerNavigationTheme
+import com.jetpackcompose.ui.common.theme.JetpackComposeDrawerNavigationTheme
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
