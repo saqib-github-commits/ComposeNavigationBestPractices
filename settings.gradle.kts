@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "JetpackComposeDrawerNavigation"
 include(":app")
- 
+include(":feature_articles")
+include(":ui_common")
