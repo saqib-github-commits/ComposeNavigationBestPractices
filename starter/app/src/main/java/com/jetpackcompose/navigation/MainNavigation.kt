@@ -35,6 +35,8 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.jetpackcompose.feature.about.AboutScreen
 import com.jetpackcompose.feature.about.AboutViewModel
+import com.jetpackcompose.feature.article.ArticleScreen
+import com.jetpackcompose.feature.article.ArticleViewModel
 import com.jetpackcompose.feature.articles.ArticlesScreen
 import com.jetpackcompose.feature.articles.ArticlesViewModel
 import com.jetpackcompose.feature.settings.SettingsScreen
@@ -114,7 +116,9 @@ fun MainNavigation(
         NavHost(navController = navController, startDestination = MainRoute.Articles.name) {
             composable(MainRoute.Articles.name) {
                 val viewModel: ArticlesViewModel = hiltViewModel()
-                ArticlesScreen(drawerState, viewModel)
+                ArticlesScreen(drawerState, viewModel) {
+                    navController.navigate("article")
+                }
             }
             composable(MainRoute.About.name) {
                 val viewModel: AboutViewModel = hiltViewModel()
@@ -123,6 +127,15 @@ fun MainNavigation(
             composable(MainRoute.Settings.name) {
                 val viewModel: SettingsViewModel = hiltViewModel()
                 SettingsScreen(drawerState, viewModel)
+            }
+            composable("article") {
+                val viewModel: ArticleViewModel = hiltViewModel()
+                ArticleScreen(
+                    viewModel = viewModel,
+                    onBackNavigation = {
+                        navController.navigateUp()
+                    }
+                )
             }
         }
     }

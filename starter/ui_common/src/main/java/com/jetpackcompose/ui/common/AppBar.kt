@@ -16,7 +16,7 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CustomAppBar(drawerState: DrawerState?, title: String) {
+fun CustomAppBar(drawerState: DrawerState? = null, title: String) {
     val coroutineScope = rememberCoroutineScope()
 
     CenterAlignedTopAppBar(
