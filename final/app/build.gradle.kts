@@ -56,6 +56,7 @@ dependencies {
     implementation(project(":feature_articles"))
     implementation(project(":feature_settings"))
     implementation(project(":feature_about"))
+    implementation(project(":feature_article"))
 
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")

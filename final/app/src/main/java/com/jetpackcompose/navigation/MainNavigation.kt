@@ -35,6 +35,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.jetpackcompose.feature.about.AboutScreen
 import com.jetpackcompose.feature.about.AboutViewModel
+import com.jetpackcompose.feature.article.nav.articleScreen
 import com.jetpackcompose.feature.articles.ArticlesScreen
 import com.jetpackcompose.feature.articles.ArticlesViewModel
 import com.jetpackcompose.feature.settings.SettingsScreen
@@ -45,7 +46,7 @@ import kotlinx.coroutines.launch
 enum class MainRoute(value: String) {
     Articles("articles"),
     About("about"),
-    Settings("settings")
+    Settings("settings"),
 }
 
 private data class DrawerMenu(val icon: ImageVector, val title: String, val route: String)
@@ -114,7 +115,9 @@ fun MainNavigation(
         NavHost(navController = navController, startDestination = MainRoute.Articles.name) {
             composable(MainRoute.Articles.name) {
                 val viewModel: ArticlesViewModel = hiltViewModel()
-                ArticlesScreen(drawerState, viewModel)
+                ArticlesScreen(drawerState, viewModel) {
+                    navController.navigate("article")
+                }
             }
             composable(MainRoute.About.name) {
                 val viewModel: AboutViewModel = hiltViewModel()
@@ -123,6 +126,10 @@ fun MainNavigation(
             composable(MainRoute.Settings.name) {
                 val viewModel: SettingsViewModel = hiltViewModel()
                 SettingsScreen(drawerState, viewModel)
+            }
+
+            articleScreen {
+                navController.navigateUp()
             }
         }
     }
