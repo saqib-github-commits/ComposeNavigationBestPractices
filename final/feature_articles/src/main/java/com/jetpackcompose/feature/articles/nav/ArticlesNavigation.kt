@@ -7,13 +7,13 @@ import androidx.navigation.compose.composable
 import com.jetpackcompose.feature.articles.ArticlesScreen
 import com.jetpackcompose.feature.articles.ArticlesViewModel
 
-private const val ARTICLES_ROUTE = "articles"
+const val articlesRoute = "articles"
 
 fun NavGraphBuilder.articlesScreen(
     drawerState: DrawerState,
     onNavigateToArticle: () -> Unit,
 ) {
-    composable(ARTICLES_ROUTE) {
+    composable(articlesRoute) {
         val viewModel: ArticlesViewModel = hiltViewModel()
         ArticlesScreen(
             drawerState = drawerState,

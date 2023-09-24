@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/feature_about" />
             <option value="$PROJECT_DIR$/feature_article" />
             <option value="$PROJECT_DIR$/feature_articles" />
+            <option value="$PROJECT_DIR$/feature_home" />
             <option value="$PROJECT_DIR$/feature_settings" />
             <option value="$PROJECT_DIR$/ui_common" />
           </set>

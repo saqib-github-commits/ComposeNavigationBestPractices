@@ -1,5 +1,6 @@
 package com.jetpackcompose.feature.articles
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -37,7 +38,9 @@ fun ArticlesScreen(
         ) {
             Text(text = " Articles Screen")
             Spacer(modifier = Modifier.height(8.dp))
-            Button(onClick = onNavigateToArticle) {
+            Button(
+                onClick = onNavigateToArticle,
+                ) {
                 Text(text = "Go To Article")
             }
 
